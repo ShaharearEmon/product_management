@@ -1,0 +1,8 @@
+The number 1 is composite
+The number 2 is prime
+The number 12 is composite
+The number 13 is prime
+The number 11 is prime
+The number 31 is prime
+The number 33 is composite
+The number 42 is composite
