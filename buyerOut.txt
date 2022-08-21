@@ -1,0 +1,3 @@
+Buyer_ID = 79
+Buyer_Name = Shaharear Emon
+Price = 69 $
