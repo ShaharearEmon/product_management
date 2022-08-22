@@ -35,6 +35,9 @@ public:
     void print_sold_product() 
     { 
         ofstream out("customerOut.txt"); 
+        out<<"Product_ID = "<<product_id<<endl; 
+        out<<"Product_Category = "<<product_category<<endl; 
+        out<<"Product_Name = "<<product_name<<endl;
         out<<"Customer_ID = "<<customer_id<<endl; 
         out<<"Price = "<<price<<" $"; 
     } 
@@ -56,6 +59,9 @@ public:
     void print_bought_product() 
     { 
         ofstream out("buyerOut.txt"); 
+        out<<"Product_ID = "<<product_id<<endl; 
+        out<<"Product_Category = "<<product_category<<endl; 
+        out<<"Product_Name = "<<product_name<<endl;
         out<<"Buyer_ID = "<<buyer_id<<endl; 
         out<<"Buyer_Name = "<<buyer_name<<endl; 
         out<<"Price = "<<price<<" $"<<endl; 
@@ -69,13 +75,15 @@ int main()
     Product one; 
     soldProduct two;
     boughtProduct three; 
-    
+
     one.input_product(); 
     one.print_product(); 
      
+    two.input_product();
     two.input_sold_product(); 
     two.print_sold_product(); 
-     
+    
+    three.input_product();
     three.input_bought_product(); 
     three.print_bought_product(); 
     return 0; 

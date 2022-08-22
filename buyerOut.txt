@@ -1,3 +1,6 @@
+Product_ID = 67
+Product_Category = fruits
+Product_Name = Apple
 Buyer_ID = 79
 Buyer_Name = Shaharear Emon
 Price = 69 $

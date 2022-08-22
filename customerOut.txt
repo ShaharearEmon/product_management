@@ -1,2 +1,5 @@
+Product_ID = 67
+Product_Category = fruits
+Product_Name = Apple
 Customer_ID = 79
 Price = 56 $
